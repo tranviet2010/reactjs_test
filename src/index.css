@@ -5,9 +5,88 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin-top: 100px;
+  margin-left: 700px;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.all_main{
+  z-index: 50;
+}
+.cusoor{
+  cursor: pointer !important;
+}
+.noname1 {
+  width: 10px;
+  height: 10px;
+  border: 1px solid red;
+  background-color: red;
+  z-index: 100;
+  
+}
+.noname1::after{
+  content: ' ';
+  height:500px;
+  position: absolute;
+  border:1px solid black;
+  left: 51.61%;
+  z-index: -100;
+}
+.contrikker{
+  width: 200px;
+  height: 50px;
+  border:1px solid red;
+}
+.dis_none{
+  display: none;
+}
+.dis_block1,.dis_block2,.dis_block3{
+  width: 200px;
+  height: 60px;
+  border:1px solid black;
+  margin-left: 20px;
+  position: absolute;
+}
+.dis_block3{
+  width: 200px;
+  height: 60px;
+  border:1px solid black;
+  margin-left: -100px;
+  margin-top: -70px;
+  position: absolute;
+}
+.noname2{
+  margin-top: 100px;
+  width: 10px;
+  height: 10px;
+  z-index: 100;
+  border: 1px solid red;
+  background-color: red;
+}
+.noname2::after{
+  content: ' ';
+  height:250px;
+  left:42.4%;
+  position: absolute;
+  border:1px solid black;
+  transform: rotate(90deg);
+  z-index: -2;
+}
+.noname2::before{
+  content: 'Sông Nậm Mô';
+  position: absolute;
+  left:35%;
+  top: 48.5%;
+  font-weight: 500;
+  font-style: italic;
+}
+.noname3{
+  margin-top: 133px;
+  margin-right: 18px;
+  position: absolute;
+  left: 43%;
+  top: 30.5%;
+  width: 10px;
+  height: 10px;
+  z-index: 100;
+  border: 1px solid red;
+  background-color: red;
 }
